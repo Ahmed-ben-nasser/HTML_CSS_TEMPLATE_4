@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friends</title>
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/framework.css" />
+    <link rel="stylesheet" href="css/webenaser.css" />
+
+    <!-- Start google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- End google fonts -->
+  </head>
+  <body>
+    <div class="page d-flex">
+      <div class="sidebar bg-white p-20 p-relative">
+        <h3 class="p-relative txt-c mt-0">WebeNaser</h3>
+        <ul>
+          <li>
+            <a
+              href="index.html"
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+            >
+              <i class="fas fa-chart-bar fa-fw"></i>
+              <span class="hide-mobil">Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="settings.html"
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+            >
+              <i class="fas fa-cog fa-fw"></i>
+              <span class="hide-mobil">Settings</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="profile.html"
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+            >
+              <i class="fas fa-user fa-fw"></i>
+              <span class="active hide-mobil">Profile</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="courses.html"
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+            >
+              <i class="fas fa-graduation-cap fa-fw"></i>
+              <span class="hide-mobil">Courses</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="projects.html"
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+            >
+              <i class="fas fa-project-diagram"></i>
+              <span class="hide-mobil">Projects</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="friends.html"
+              class="active d-flex align-center fs-14 c-black rad-6 p-10"
+            >
+              <i class="fas fa-user-friends fa-fw"></i>
+              <span class="hide-mobil">Friends</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="files.html"
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+            >
+              <i class="fas fa-file fa-fw"></i>
+              <span class="hide-mobil">File</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="plans.html"
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+            >
+              <i class="fas fa-money-check-alt fa-fw"></i>
+              <span class="hide-mobil">Plans</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="content w-full">
+        <!-- Start Head  -->
+        <div class="head bg-white p-15 flex-between">
+          <div class="search p-relative">
+            <input
+              class="p-10 rad-6"
+              type="search"
+              name=""
+              placeholder="Search..."
+              id=""
+            />
+          </div>
+          <div class="icons d-flex align-center">
+            <span class="notify p-relative mr-10">
+              <i class="far fa-bell fa-lg"></i>
+            </span>
+            <img src="images/avatar.png" alt="" />
+          </div>
+        </div>
+        <!-- End Head  -->
+        <h1 class="p-relative">Friends</h1>
+
+        <div
+          class="friends-page m-20 d-grid grid-temp-300 gap-20 grid-temp-200-mobile"
+        >
+          <div class="friend-box bg-white p-20 rad-6 p-relative">
+            <div class="contact-icons">
+              <span><i class="fas fa-phone-alt"></i></span>
+              <span><i class="far fa-envelope"></i></span>
+            </div>
+            <div class="friend-info ptb-10">
+              <img src="images/friend-01.jpg" alt="" />
+              <div class="text">
+                <h4 class="m-0 mt-10">Mohamed Khaled</h4>
+                <p class="c-gray mt-5 fs-14">MERN Stack Developer</p>
+              </div>
+            </div>
+            <div class="details ptb-10 border-t-eee border-b-eee fs-14">
+              <div class="ptb-5">
+                <i class="fas fa-user-friends mr-5"></i>
+                <span>330 Friends</span>
+              </div>
+              <div class="ptb-5">
+                <i class="fas fa-project-diagram mr-5"></i>
+                <span>456 Projects</span>
+              </div>
+              <div class="ptb-5">
+                <i class="far fa-newspaper mr-5"></i> <span>540 Articles</span>
+              </div>
+            </div>
+            <div class="action-row flex-between pt-10">
+              <p class="fs-14 c-gray txt-l">joined 04/6/2022</p>
+              <div class="flex-between">
+                <a
+                  class="ptb-5 plr-20 rad-6 fs-14 c-white bg-blue mr-5"
+                  href="profile.html"
+                  >Profile</a
+                >
+                <a
+                  class="ptb-5 plr-20 rad-6 fs-14 c-white bg-red"
+                  href="profile.html"
+                  >Remove</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="friend-box bg-white p-20 rad-6 p-relative">
+            <div class="contact-icons">
+              <span><i class="fas fa-phone-alt"></i></span>
+              <span><i class="far fa-envelope"></i></span>
+            </div>
+            <div class="friend-info ptb-10">
+              <img src="images/friend-02.jpg" alt="" />
+              <div class="text">
+                <h4 class="m-0 mt-10">Ezz Abdel Moaz</h4>
+                <p class="c-gray mt-5 fs-14">PHP developer</p>
+              </div>
+            </div>
+            <div class="details ptb-10 border-t-eee border-b-eee fs-14">
+              <div class="ptb-5">
+                <i class="fas fa-user-friends mr-5"></i>
+                <span>255 Friends</span>
+              </div>
+              <div class="ptb-5">
+                <i class="fas fa-project-diagram mr-5"></i>
+                <span>87 Projects</span>
+              </div>
+              <div class="ptb-5">
+                <i class="far fa-newspaper mr-5"></i> <span>18 Articles</span>
+              </div>
+            </div>
+            <div class="action-row flex-between pt-10">
+              <p class="fs-14 c-gray txt-l">joined 15/03/2022</p>
+              <div class="flex-between">
+                <a
+                  class="ptb-5 plr-20 rad-6 fs-14 c-white bg-blue mr-5"
+                  href="profile.html"
+                  >Profile</a
+                >
+                <a
+                  class="ptb-5 plr-20 rad-6 fs-14 c-white bg-red"
+                  href="profile.html"
+                  >Remove</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="friend-box bg-white p-20 rad-6 p-relative">
+            <div class="contact-icons">
+              <span><i class="fas fa-phone-alt"></i></span>
+              <span><i class="far fa-envelope"></i></span>
+            </div>
+            <div class="friend-info ptb-10">
+              <img src="images/friend-03.jpg" alt="" />
+              <div class="text">
+                <h4 class="m-0 mt-10">Hassan Gamal</h4>
+                <p class="c-gray mt-5 fs-14">Web developer</p>
+              </div>
+            </div>
+            <div class="details ptb-10 border-t-eee border-b-eee fs-14">
+              <div class="ptb-5">
+                <i class="fas fa-user-friends mr-5"></i>
+                <span>678 Friends</span>
+              </div>
+              <div class="ptb-5">
+                <i class="fas fa-project-diagram mr-5"></i>
+                <span>322 Projects</span>
+              </div>
+              <div class="ptb-5">
+                <i class="far fa-newspaper mr-5"></i> <span>98 Articles</span>
+              </div>
+            </div>
+            <div class="action-row flex-between pt-10">
+              <p class="fs-14 c-gray txt-l">joined 25/04/2022</p>
+              <div class="flex-between">
+                <a
+                  class="ptb-5 plr-20 rad-6 fs-14 c-white bg-blue mr-5"
+                  href="profile.html"
+                  >Profile</a
+                >
+                <a
+                  class="ptb-5 plr-20 rad-6 fs-14 c-white bg-red"
+                  href="profile.html"
+                  >Remove</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="friend-box bg-white p-20 rad-6 p-relative">
+            <div class="contact-icons">
+              <span><i class="fas fa-phone-alt"></i></span>
+              <span><i class="far fa-envelope"></i></span>
+            </div>
+            <div class="friend-info ptb-10">
+              <img src="images/friend-05.jpg" alt="" />
+              <div class="text">
+                <h4 class="m-0 mt-10">Mohamed Gamal</h4>
+                <p class="c-gray mt-5 fs-14">Web developer</p>
+              </div>
+            </div>
+            <div class="details ptb-10 border-t-eee border-b-eee fs-14">
+              <div class="ptb-5">
+                <i class="fas fa-user-friends mr-5"></i>
+                <span>987 Friends</span>
+              </div>
+              <div class="ptb-5">
+                <i class="fas fa-project-diagram mr-5"></i>
+                <span>655 Projects</span>
+              </div>
+              <div class="ptb-5">
+                <i class="far fa-newspaper mr-5"></i> <span>90 Articles</span>
+              </div>
+            </div>
+            <div class="action-row flex-between pt-10">
+              <p class="fs-14 c-gray txt-l">joined 13/04/2022</p>
+              <div class="flex-between">
+                <a
+                  class="ptb-5 plr-20 rad-6 fs-14 c-white bg-blue mr-5"
+                  href="profile.html"
+                  >Profile</a
+                >
+                <a
+                  class="ptb-5 plr-20 rad-6 fs-14 c-white bg-red"
+                  href="profile.html"
+                  >Remove</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="friend-box bg-white p-20 rad-6 p-relative">
+            <div class="contact-icons">
+              <span><i class="fas fa-phone-alt"></i></span>
+              <span><i class="far fa-envelope"></i></span>
+            </div>
+            <div class="friend-info ptb-10">
+              <img src="images/friend-04.jpg" alt="" />
+              <div class="text">
+                <h4 class="m-0 mt-10">Khaled Mohamed</h4>
+                <p class="c-gray mt-5 fs-14">Flutter Mobile Developer</p>
+              </div>
+            </div>
+            <div class="details ptb-10 border-t-eee border-b-eee fs-14">
+              <div class="ptb-5">
+                <i class="fas fa-user-friends mr-5"></i>
+                <span>421 Friends</span>
+              </div>
+              <div class="ptb-5">
+                <i class="fas fa-project-diagram mr-5"></i>
+                <span>452 Projects</span>
+              </div>
+              <div class="ptb-5">
+                <i class="far fa-newspaper mr-5"></i> <span>145 Articles</span>
+              </div>
+            </div>
+            <div class="action-row flex-between pt-10">
+              <p class="fs-14 c-gray txt-l">joined 29/05/2022</p>
+              <div class="flex-between">
+                <a
+                  class="ptb-5 plr-20 rad-6 fs-14 c-white bg-blue mr-5"
+                  href="profile.html"
+                  >Profile</a
+                >
+                <a
+                  class="ptb-5 plr-20 rad-6 fs-14 c-white bg-red"
+                  href="profile.html"
+                  >Remove</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="friend-box bg-white p-20 rad-6 p-relative">
+            <div class="contact-icons">
+              <span><i class="fas fa-phone-alt"></i></span>
+              <span><i class="far fa-envelope"></i></span>
+            </div>
+            <div class="friend-info ptb-10">
+              <img src="images/friend-01.jpg" alt="" />
+              <div class="text">
+                <h4 class="m-0 mt-10">Mohamed Khaled</h4>
+                <p class="c-gray mt-5 fs-14">MERN Stack Developer</p>
+              </div>
+            </div>
+            <div class="details ptb-10 border-t-eee border-b-eee fs-14">
+              <div class="ptb-5">
+                <i class="fas fa-user-friends mr-5"></i>
+                <span>330 Friends</span>
+              </div>
+              <div class="ptb-5">
+                <i class="fas fa-project-diagram mr-5"></i>
+                <span>456 Projects</span>
+              </div>
+              <div class="ptb-5">
+                <i class="far fa-newspaper mr-5"></i> <span>540 Articles</span>
+              </div>
+            </div>
+            <div class="action-row flex-between pt-10">
+              <p class="fs-14 c-gray txt-l">joined 04/6/2022</p>
+              <div class="flex-between">
+                <a
+                  class="ptb-5 plr-20 rad-6 fs-14 c-white bg-blue mr-5"
+                  href="profile.html"
+                  >Profile</a
+                >
+                <a
+                  class="ptb-5 plr-20 rad-6 fs-14 c-white bg-red"
+                  href="profile.html"
+                  >Remove</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="friend-box bg-white p-20 rad-6 p-relative">
+            <div class="contact-icons">
+              <span><i class="fas fa-phone-alt"></i></span>
+              <span><i class="far fa-envelope"></i></span>
+            </div>
+            <div class="friend-info ptb-10">
+              <img src="images/friend-02.jpg" alt="" />
+              <div class="text">
+                <h4 class="m-0 mt-10">Ezz Abdel Moaz</h4>
+                <p class="c-gray mt-5 fs-14">PHP developer</p>
+              </div>
+            </div>
+            <div class="details ptb-10 border-t-eee border-b-eee fs-14">
+              <div class="ptb-5">
+                <i class="fas fa-user-friends mr-5"></i>
+                <span>255 Friends</span>
+              </div>
+              <div class="ptb-5">
+                <i class="fas fa-project-diagram mr-5"></i>
+                <span>87 Projects</span>
+              </div>
+              <div class="ptb-5">
+                <i class="far fa-newspaper mr-5"></i> <span>18 Articles</span>
+              </div>
+            </div>
+            <div class="action-row flex-between pt-10">
+              <p class="fs-14 c-gray txt-l">joined 15/03/2022</p>
+              <div class="flex-between">
+                <a
+                  class="ptb-5 plr-20 rad-6 fs-14 c-white bg-blue mr-5"
+                  href="profile.html"
+                  >Profile</a
+                >
+                <a
+                  class="ptb-5 plr-20 rad-6 fs-14 c-white bg-red"
+                  href="profile.html"
+                  >Remove</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="friend-box bg-white p-20 rad-6 p-relative">
+            <div class="contact-icons">
+              <span><i class="fas fa-phone-alt"></i></span>
+              <span><i class="far fa-envelope"></i></span>
+            </div>
+            <div class="friend-info ptb-10">
+              <img src="images/friend-03.jpg" alt="" />
+              <div class="text">
+                <h4 class="m-0 mt-10">Hassan Gamal</h4>
+                <p class="c-gray mt-5 fs-14">Web developer</p>
+              </div>
+            </div>
+            <div class="details ptb-10 border-t-eee border-b-eee fs-14">
+              <div class="ptb-5">
+                <i class="fas fa-user-friends mr-5"></i>
+                <span>678 Friends</span>
+              </div>
+              <div class="ptb-5">
+                <i class="fas fa-project-diagram mr-5"></i>
+                <span>322 Projects</span>
+              </div>
+              <div class="ptb-5">
+                <i class="far fa-newspaper mr-5"></i> <span>98 Articles</span>
+              </div>
+            </div>
+            <div class="action-row flex-between pt-10">
+              <p class="fs-14 c-gray txt-l">joined 25/04/2022</p>
+              <div class="flex-between">
+                <a
+                  class="ptb-5 plr-20 rad-6 fs-14 c-white bg-blue mr-5"
+                  href="profile.html"
+                  >Profile</a
+                >
+                <a
+                  class="ptb-5 plr-20 rad-6 fs-14 c-white bg-red"
+                  href="profile.html"
+                  >Remove</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="friend-box bg-white p-20 rad-6 p-relative">
+            <div class="contact-icons">
+              <span><i class="fas fa-phone-alt"></i></span>
+              <span><i class="far fa-envelope"></i></span>
+            </div>
+            <div class="friend-info ptb-10">
+              <img src="images/friend-02.jpg" alt="" />
+              <div class="text">
+                <h4 class="m-0 mt-10">Ezz Abdel Moaz</h4>
+                <p class="c-gray mt-5 fs-14">PHP developer</p>
+              </div>
+            </div>
+            <div class="details ptb-10 border-t-eee border-b-eee fs-14">
+              <div class="ptb-5">
+                <i class="fas fa-user-friends mr-5"></i>
+                <span>255 Friends</span>
+              </div>
+              <div class="ptb-5">
+                <i class="fas fa-project-diagram mr-5"></i>
+                <span>87 Projects</span>
+              </div>
+              <div class="ptb-5">
+                <i class="far fa-newspaper mr-5"></i> <span>18 Articles</span>
+              </div>
+            </div>
+            <div class="action-row flex-between pt-10">
+              <p class="fs-14 c-gray txt-l">joined 15/03/2022</p>
+              <div class="flex-between">
+                <a
+                  class="ptb-5 plr-20 rad-6 fs-14 c-white bg-blue mr-5"
+                  href="profile.html"
+                  >Profile</a
+                >
+                <a
+                  class="ptb-5 plr-20 rad-6 fs-14 c-white bg-red"
+                  href="profile.html"
+                  >Remove</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="friend-box bg-white p-20 rad-6 p-relative">
+            <div class="contact-icons">
+              <span><i class="fas fa-phone-alt"></i></span>
+              <span><i class="far fa-envelope"></i></span>
+            </div>
+            <div class="friend-info ptb-10">
+              <img src="images/friend-03.jpg" alt="" />
+              <div class="text">
+                <h4 class="m-0 mt-10">Hassan Gamal</h4>
+                <p class="c-gray mt-5 fs-14">Web developer</p>
+              </div>
+            </div>
+            <div class="details ptb-10 border-t-eee border-b-eee fs-14">
+              <div class="ptb-5">
+                <i class="fas fa-user-friends mr-5"></i>
+                <span>678 Friends</span>
+              </div>
+              <div class="ptb-5">
+                <i class="fas fa-project-diagram mr-5"></i>
+                <span>322 Projects</span>
+              </div>
+              <div class="ptb-5">
+                <i class="far fa-newspaper mr-5"></i> <span>98 Articles</span>
+              </div>
+            </div>
+            <div class="action-row flex-between pt-10">
+              <p class="fs-14 c-gray txt-l">joined 25/04/2022</p>
+              <div class="flex-between">
+                <a
+                  class="ptb-5 plr-20 rad-6 fs-14 c-white bg-blue mr-5"
+                  href="profile.html"
+                  >Profile</a
+                >
+                <a
+                  class="ptb-5 plr-20 rad-6 fs-14 c-white bg-red"
+                  href="profile.html"
+                  >Remove</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="friend-box bg-white p-20 rad-6 p-relative">
+            <div class="contact-icons">
+              <span><i class="fas fa-phone-alt"></i></span>
+              <span><i class="far fa-envelope"></i></span>
+            </div>
+            <div class="friend-info ptb-10">
+              <img src="images/friend-05.jpg" alt="" />
+              <div class="text">
+                <h4 class="m-0 mt-10">Mohamed Gamal</h4>
+                <p class="c-gray mt-5 fs-14">Web developer</p>
+              </div>
+            </div>
+            <div class="details ptb-10 border-t-eee border-b-eee fs-14">
+              <div class="ptb-5">
+                <i class="fas fa-user-friends mr-5"></i>
+                <span>987 Friends</span>
+              </div>
+              <div class="ptb-5">
+                <i class="fas fa-project-diagram mr-5"></i>
+                <span>655 Projects</span>
+              </div>
+              <div class="ptb-5">
+                <i class="far fa-newspaper mr-5"></i> <span>90 Articles</span>
+              </div>
+            </div>
+            <div class="action-row flex-between pt-10">
+              <p class="fs-14 c-gray txt-l">joined 13/04/2022</p>
+              <div class="flex-between">
+                <a
+                  class="ptb-5 plr-20 rad-6 fs-14 c-white bg-blue mr-5"
+                  href="profile.html"
+                  >Profile</a
+                >
+                <a
+                  class="ptb-5 plr-20 rad-6 fs-14 c-white bg-red"
+                  href="profile.html"
+                  >Remove</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="friend-box bg-white p-20 rad-6 p-relative">
+            <div class="contact-icons">
+              <span><i class="fas fa-phone-alt"></i></span>
+              <span><i class="far fa-envelope"></i></span>
+            </div>
+            <div class="friend-info ptb-10">
+              <img src="images/friend-04.jpg" alt="" />
+              <div class="text">
+                <h4 class="m-0 mt-10">Khaled Mohamed</h4>
+                <p class="c-gray mt-5 fs-14">Flutter Mobile Developer</p>
+              </div>
+            </div>
+            <div class="details ptb-10 border-t-eee border-b-eee fs-14">
+              <div class="ptb-5">
+                <i class="fas fa-user-friends mr-5"></i>
+                <span>421 Friends</span>
+              </div>
+              <div class="ptb-5">
+                <i class="fas fa-project-diagram mr-5"></i>
+                <span>452 Projects</span>
+              </div>
+              <div class="ptb-5">
+                <i class="far fa-newspaper mr-5"></i> <span>145 Articles</span>
+              </div>
+            </div>
+            <div class="action-row flex-between pt-10">
+              <p class="fs-14 c-gray txt-l">joined 29/05/2022</p>
+              <div class="flex-between">
+                <a
+                  class="ptb-5 plr-20 rad-6 fs-14 c-white bg-blue mr-5"
+                  href="profile.html"
+                  >Profile</a
+                >
+                <a
+                  class="ptb-5 plr-20 rad-6 fs-14 c-white bg-red"
+                  href="profile.html"
+                  >Remove</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

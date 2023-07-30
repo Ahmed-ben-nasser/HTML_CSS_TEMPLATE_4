@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Files</title>
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/framework.css" />
+    <link rel="stylesheet" href="css/webenaser.css" />
+
+    <!-- Start google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- End google fonts -->
+  </head>
+  <body>
+    <div class="page d-flex">
+      <div class="sidebar bg-white p-20 p-relative">
+        <h3 class="p-relative txt-c mt-0">WebeNaser</h3>
+        <ul>
+          <li>
+            <a
+              href="index.html"
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+            >
+              <i class="fas fa-chart-bar fa-fw"></i>
+              <span class="hide-mobil">Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="settings.html"
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+            >
+              <i class="fas fa-cog fa-fw"></i>
+              <span class="hide-mobil">Settings</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="profile.html"
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+            >
+              <i class="fas fa-user fa-fw"></i>
+              <span class="active hide-mobil">Profile</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="courses.html"
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+            >
+              <i class="fas fa-graduation-cap fa-fw"></i>
+              <span class="hide-mobil">Courses</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="projects.html"
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+            >
+              <i class="fas fa-project-diagram"></i>
+              <span class="hide-mobil">Projects</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="friends.html"
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+            >
+              <i class="fas fa-user-friends fa-fw"></i>
+              <span class="hide-mobil">Friends</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="files.html"
+              class="active d-flex align-center fs-14 c-black rad-6 p-10"
+            >
+              <i class="fas fa-file fa-fw"></i>
+              <span class="hide-mobil">File</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="plans.html"
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+            >
+              <i class="fas fa-money-check-alt fa-fw"></i>
+              <span class="hide-mobil">Plans</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="content w-full">
+        <!-- Start Head  -->
+        <div class="head bg-white p-15 flex-between">
+          <div class="search p-relative">
+            <input
+              class="p-10 rad-6"
+              type="search"
+              name=""
+              placeholder="Search..."
+              id=""
+            />
+          </div>
+          <div class="icons d-flex align-center">
+            <span class="notify p-relative mr-10">
+              <i class="far fa-bell fa-lg"></i>
+            </span>
+            <img src="images/avatar.png" alt="" />
+          </div>
+        </div>
+        <!-- End Head  -->
+        <h1 class="p-relative">Files</h1>
+
+        <div class="files-page m-20 gap-20 d-flex flex-column-r-mobile">
+          <div class="files-container d-grid grid-temp-200 gap-20 flex-grow-1">
+            <div class="file-box bg-white p-20 rad-10">
+              <div class="icons txt-c p-relative">
+                <i class="fas fa-download c-gray"></i>
+                <img class="w-50" src="images/pdf.svg" alt="" />
+                <p class="txt-c mt-5">lecture-3.pdf</p>
+              </div>
+              <span class="c-gray d-block pb-10 fs-14 border-b-eee">Ahmed</span>
+              <div class="info flex-between c-gray pt-10">
+                <span class="fs-13"> 23/08/2022 </span>
+                <span class="fs-14">4.3MB</span>
+              </div>
+            </div>
+            <div class="file-box bg-white p-20 rad-10">
+              <div class="icons txt-c p-relative">
+                <i class="fas fa-download c-gray"></i>
+                <img class="w-50" src="images/avi.svg" alt="" />
+                <p class="txt-c mt-5">Ring.avi</p>
+              </div>
+              <span class="c-gray d-block pb-10 fs-14 border-b-eee">User</span>
+              <div class="info flex-between c-gray pt-10">
+                <span class="fs-13"> 23/05/2022 </span>
+                <span class="fs-14">2.8MB</span>
+              </div>
+            </div>
+            <div class="file-box bg-white p-20 rad-10">
+              <div class="icons txt-c p-relative">
+                <i class="fas fa-download c-gray"></i>
+                <img class="w-50" src="images/zip.svg" alt="" />
+                <p class="txt-c mt-5">course-file.zip</p>
+              </div>
+              <span class="c-gray d-block pb-10 fs-14 border-b-eee"
+                >Mahmoud</span
+              >
+              <div class="info flex-between c-gray pt-10">
+                <span class="fs-13"> 22/02/2022 </span>
+                <span class="fs-14">5.9MB</span>
+              </div>
+            </div>
+            <div class="file-box bg-white p-20 rad-10">
+              <div class="icons txt-c p-relative">
+                <i class="fas fa-download c-gray"></i>
+                <img class="w-50" src="images/dll.svg" alt="" />
+                <p class="txt-c mt-5">config.dll</p>
+              </div>
+              <span class="c-gray d-block pb-10 fs-14 border-b-eee">Admin</span>
+              <div class="info flex-between c-gray pt-10">
+                <span class="fs-13"> 25/05/2022 </span>
+                <span class="fs-14">1.8MB</span>
+              </div>
+            </div>
+            <div class="file-box bg-white p-20 rad-10">
+              <div class="icons txt-c p-relative">
+                <i class="fas fa-download c-gray"></i>
+                <img class="w-50" src="images/zip.svg" alt="" />
+                <p class="txt-c mt-5">course-file.zip</p>
+              </div>
+              <span class="c-gray d-block pb-10 fs-14 border-b-eee"
+                >Mahmoud</span
+              >
+              <div class="info flex-between c-gray pt-10">
+                <span class="fs-13"> 22/02/2022 </span>
+                <span class="fs-14">5.9MB</span>
+              </div>
+            </div>
+            <div class="file-box bg-white p-20 rad-10">
+              <div class="icons txt-c p-relative">
+                <i class="fas fa-download c-gray"></i>
+                <img class="w-50" src="images/zip.svg" alt="" />
+                <p class="txt-c mt-5">course-file.zip</p>
+              </div>
+              <span class="c-gray d-block pb-10 fs-14 border-b-eee"
+                >Mahmoud</span
+              >
+              <div class="info flex-between c-gray pt-10">
+                <span class="fs-13"> 22/02/2022 </span>
+                <span class="fs-14">5.9MB</span>
+              </div>
+            </div>
+            <div class="file-box bg-white p-20 rad-10">
+              <div class="icons txt-c p-relative">
+                <i class="fas fa-download c-gray"></i>
+                <img class="w-50" src="images/psd.svg" alt="" />
+                <p class="txt-c mt-5">psd-file.psd</p>
+              </div>
+              <span class="c-gray d-block pb-10 fs-14 border-b-eee"
+                >Hassan</span
+              >
+              <div class="info flex-between c-gray pt-10">
+                <span class="fs-13"> 29/01/2022 </span>
+                <span class="fs-14">59.9MB</span>
+              </div>
+            </div>
+            <div class="file-box bg-white p-20 rad-10">
+              <div class="icons txt-c p-relative">
+                <i class="fas fa-download c-gray"></i>
+                <img class="w-50" src="images/eps.svg" alt="" />
+                <p class="txt-c mt-5">eps-file.eps</p>
+              </div>
+              <span class="c-gray d-block pb-10 fs-14 border-b-eee"
+                >Khaled</span
+              >
+              <div class="info flex-between c-gray pt-10">
+                <span class="fs-13"> 21/02/2022 </span>
+                <span class="fs-14">23.9MB</span>
+              </div>
+            </div>
+            <div class="file-box bg-white p-20 rad-10">
+              <div class="icons txt-c p-relative">
+                <i class="fas fa-download c-gray"></i>
+                <img class="w-50" src="images/psd.svg" alt="" />
+                <p class="txt-c mt-5">psd-file.psd</p>
+              </div>
+              <span class="c-gray d-block pb-10 fs-14 border-b-eee"
+                >Hassan</span
+              >
+              <div class="info flex-between c-gray pt-10">
+                <span class="fs-13"> 29/01/2022 </span>
+                <span class="fs-14">59.9MB</span>
+              </div>
+            </div>
+            <div class="file-box bg-white p-20 rad-10">
+              <div class="icons txt-c p-relative">
+                <i class="fas fa-download c-gray"></i>
+                <img class="w-50" src="images/pdf.svg" alt="" />
+                <p class="txt-c mt-5">lecture-3.pdf</p>
+              </div>
+              <span class="c-gray d-block pb-10 fs-14 border-b-eee">Ahmed</span>
+              <div class="info flex-between c-gray pt-10">
+                <span class="fs-13"> 23/08/2022 </span>
+                <span class="fs-14">4.3MB</span>
+              </div>
+            </div>
+            <div class="file-box bg-white p-20 rad-10">
+              <div class="icons txt-c p-relative">
+                <i class="fas fa-download c-gray"></i>
+                <img class="w-50" src="images/avi.svg" alt="" />
+                <p class="txt-c mt-5">Ring.avi</p>
+              </div>
+              <span class="c-gray d-block pb-10 fs-14 border-b-eee">User</span>
+              <div class="info flex-between c-gray pt-10">
+                <span class="fs-13"> 23/05/2022 </span>
+                <span class="fs-14">2.8MB</span>
+              </div>
+            </div>
+            <div class="file-box bg-white p-20 rad-10">
+              <div class="icons txt-c p-relative">
+                <i class="fas fa-download c-gray"></i>
+                <img class="w-50" src="images/zip.svg" alt="" />
+                <p class="txt-c mt-5">course-file.zip</p>
+              </div>
+              <span class="c-gray d-block pb-10 fs-14 border-b-eee"
+                >Mahmoud</span
+              >
+              <div class="info flex-between c-gray pt-10">
+                <span class="fs-13"> 22/02/2022 </span>
+                <span class="fs-14">5.9MB</span>
+              </div>
+            </div>
+            <div class="file-box bg-white p-20 rad-10">
+              <div class="icons txt-c p-relative">
+                <i class="fas fa-download c-gray"></i>
+                <img class="w-50" src="images/dll.svg" alt="" />
+                <p class="txt-c mt-5">config.dll</p>
+              </div>
+              <span class="c-gray d-block pb-10 fs-14 border-b-eee">Admin</span>
+              <div class="info flex-between c-gray pt-10">
+                <span class="fs-13"> 25/05/2022 </span>
+                <span class="fs-14">1.8MB</span>
+              </div>
+            </div>
+            <div class="file-box bg-white p-20 rad-10">
+              <div class="icons txt-c p-relative">
+                <i class="fas fa-download c-gray"></i>
+                <img class="w-50" src="images/zip.svg" alt="" />
+                <p class="txt-c mt-5">course-file.zip</p>
+              </div>
+              <span class="c-gray d-block pb-10 fs-14 border-b-eee"
+                >Mahmoud</span
+              >
+              <div class="info flex-between c-gray pt-10">
+                <span class="fs-13"> 22/02/2022 </span>
+                <span class="fs-14">5.9MB</span>
+              </div>
+            </div>
+            <div class="file-box bg-white p-20 rad-10">
+              <div class="icons txt-c p-relative">
+                <i class="fas fa-download c-gray"></i>
+                <img class="w-50" src="images/psd.svg" alt="" />
+                <p class="txt-c mt-5">psd-file.psd</p>
+              </div>
+              <span class="c-gray d-block pb-10 fs-14 border-b-eee"
+                >Hassan</span
+              >
+              <div class="info flex-between c-gray pt-10">
+                <span class="fs-13"> 29/01/2022 </span>
+                <span class="fs-14">59.9MB</span>
+              </div>
+            </div>
+            <div class="file-box bg-white p-20 rad-10">
+              <div class="icons txt-c p-relative">
+                <i class="fas fa-download c-gray"></i>
+                <img class="w-50" src="images/eps.svg" alt="" />
+                <p class="txt-c mt-5">eps-file.eps</p>
+              </div>
+              <span class="c-gray d-block pb-10 fs-14 border-b-eee"
+                >Khaled</span
+              >
+              <div class="info flex-between c-gray pt-10">
+                <span class="fs-13"> 21/02/2022 </span>
+                <span class="fs-14">23.9MB</span>
+              </div>
+            </div>
+
+            <div class="file-box bg-white p-20 rad-10">
+              <div class="icons txt-c p-relative">
+                <i class="fas fa-download c-gray"></i>
+                <img class="w-50" src="images/psd.svg" alt="" />
+                <p class="txt-c mt-5">psd-file.psd</p>
+              </div>
+              <span class="c-gray d-block pb-10 fs-14 border-b-eee"
+                >Hassan</span
+              >
+              <div class="info flex-between c-gray pt-10">
+                <span class="fs-13"> 29/01/2022 </span>
+                <span class="fs-14">59.9MB</span>
+              </div>
+            </div>
+            <div class="file-box bg-white p-20 rad-10">
+              <div class="icons txt-c p-relative">
+                <i class="fas fa-download c-gray"></i>
+                <img class="w-50" src="images/pdf.svg" alt="" />
+                <p class="txt-c mt-5">lecture-3.pdf</p>
+              </div>
+              <span class="c-gray d-block pb-10 fs-14 border-b-eee">Ahmed</span>
+              <div class="info flex-between c-gray pt-10">
+                <span class="fs-13"> 23/08/2022 </span>
+                <span class="fs-14">4.3MB</span>
+              </div>
+            </div>
+
+            <div class="file-box bg-white p-20 rad-10">
+              <div class="icons txt-c p-relative">
+                <i class="fas fa-download c-gray"></i>
+                <img class="w-50" src="images/pdf.svg" alt="" />
+                <p class="txt-c mt-5">lecture-3.pdf</p>
+              </div>
+              <span class="c-gray d-block pb-10 fs-14 border-b-eee">Ahmed</span>
+              <div class="info flex-between c-gray pt-10">
+                <span class="fs-13"> 23/08/2022 </span>
+                <span class="fs-14">4.3MB</span>
+              </div>
+            </div>
+            <div class="file-box bg-white p-20 rad-10">
+              <div class="icons txt-c p-relative">
+                <i class="fas fa-download c-gray"></i>
+                <img class="w-50" src="images/dll.svg" alt="" />
+                <p class="txt-c mt-5">config.dll</p>
+              </div>
+              <span class="c-gray d-block pb-10 fs-14 border-b-eee">Admin</span>
+              <div class="info flex-between c-gray pt-10">
+                <span class="fs-13"> 25/05/2022 </span>
+                <span class="fs-14">1.8MB</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="files-stats min-w-260 h-fit d-flex flex-column gap-10 rad-10 p-20 bg-white"
+          >
+            <h2 class="m-0 mb-5">Files Statistics</h2>
+
+            <div class="stats-box border-ccc rad-6 flex-between p-10">
+              <i
+                class="blue fas fa-file-pdf mr-10 fs-25 w-40 h-40 flex-center c-blue"
+              ></i>
+              <div class="info fs-13 d-flex flex-column flex-1 mr-14">
+                <span class="mb-5">PDF files</span>
+                <span class="c-gray mb-3">130</span>
+              </div>
+              <span class="amount c-gray mr-10">6.5GB</span>
+            </div>
+            <div class="stats-box border-ccc rad-6 flex-between p-10">
+              <i
+                class="fas fa-image mr-10 fs-25 w-40 h-40 flex-center c-orange"
+              ></i>
+              <div class="info fs-13 d-flex flex-column flex-1 mr-14">
+                <span class="mb-5">Images </span>
+                <span class="c-gray mb-3">544</span>
+              </div>
+              <span class="amount c-gray mr-10">22GB</span>
+            </div>
+
+            <div class="stats-box border-ccc rad-6 flex-between p-10">
+              <i
+                class="far fa-file-word mr-10 fs-25 w-40 h-40 flex-center c-red"
+              ></i>
+              <div class="info fs-13 d-flex flex-column flex-1 mr-14">
+                <span class="mb-5">Word Files </span>
+                <span class="c-gray mb-3">766</span>
+              </div>
+              <span class="amount c-gray mr-10">655MB</span>
+            </div>
+            <div class="stats-box border-ccc rad-6 flex-between p-10">
+              <i
+                class="far fa-file-powerpoint mr-10 fs-25 w-40 h-40 flex-center c-green"
+              ></i>
+              <div class="info fs-13 d-flex flex-column flex-1 mr-14">
+                <span class="mb-5">PSD Files </span>
+                <span class="c-gray mb-3">433</span>
+              </div>
+              <span class="amount c-gray mr-10">6.6GB</span>
+            </div>
+            <div class="stats-box border-ccc rad-6 flex-between p-10">
+              <i
+                class="fas fa-file-archive mr-10 fs-25 w-40 h-40 flex-center c-pink"
+              ></i>
+              <div class="info fs-13 d-flex flex-column flex-1 mr-14">
+                <span class="mb-5">Zip Files </span>
+                <span class="c-gray mb-3">255</span>
+              </div>
+              <span class="amount c-gray mr-10">2.5GB</span>
+            </div>
+            <div class="stats-box border-ccc rad-6 flex-between p-10">
+              <i
+                class="fas fa-file-image mr-10 fs-25 w-40 h-40 flex-center c-purple2"
+              ></i>
+              <div class="info fs-13 d-flex flex-column flex-1 mr-14">
+                <span class="mb-5">EPS Files </span>
+                <span class="c-gray mb-3">819</span>
+              </div>
+              <span class="amount c-gray mr-10">7.5GB</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
